@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.vtiger.tests.LoginPageValidation">
+        <methods>
+          <include name="verifyinvalidLogin"/>
+          <include name="CloseApp"/>
+          <include name="verifyTitle"/>
+          <include name="verifyvalidLogin"/>
+          <include name="verifylogo"/>
+          <include name="LauchApp"/>
+        </methods>
+      </class> <!-- com.vtiger.tests.LoginPageValidation -->
+      <class name="com.vtiger.tests.verifyLeads">
+        <methods>
+          <include name="verifyLeadMandatoryFields"/>
+          <include name="LauchApp"/>
+          <include name="verifyLeadCreation"/>
+          <include name="CloseApp"/>
+        </methods>
+      </class> <!-- com.vtiger.tests.verifyLeads -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
